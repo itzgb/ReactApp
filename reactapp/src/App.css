@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header-wrapper {
+  border: 2px solid aqua;
+  width: auto;
+  height: 30px;
+}
+
+.footer-wrapper {
+  border: 2px solid red;
+}
+
+.main-wrapper {
+  border: 2px solid pink;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar-wrapper {
+  border: 2px solid blue;
+  flex-basis: 20rem;
+  flex-grow: 1;
+}
+.ssidebar-wrapper {
+  position: absolute;
+
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  height: 100%;
+}
+
+.content-wrapper {
+  border: 2px solid black;
+  flex-basis: 0;
+  flex-grow: 999;
+}
